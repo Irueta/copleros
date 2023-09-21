@@ -1,0 +1,43 @@
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+body { 
+    background-color: rgb(157, 157, 224);
+}
+
+#contactoList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 25px;
+}
+
+article{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    width: 300px;
+}
+article >img {
+    width: 75px;
+    height: 75px;
+    border-radius: 100%;
+    margin: 15px;
+    justify-content: flex-start;
+}
+
+h3 {
+    margin-bottom: 0px;
+    opacity: 0.6;
+}
+
+p {
+    opacity: 0.4;
+    margin-top: 0px;
+}
+margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 10px;
